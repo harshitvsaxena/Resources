@@ -23,7 +23,7 @@ Docker requires a 64-bit installation regardless of your Ubuntu version. Additio
 - Check your kernel version:
 
 ```sh
-$ uname -r
+uname -r
 ```
 
 - Update your apt resources, also ensure that APT works with the https method, and that CA certificates are installed.

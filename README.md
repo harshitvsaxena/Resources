@@ -10,7 +10,7 @@ Table of Contents
 
 - [Installation Nginx, HHVM, MySQL, and phpMyAdmin](Installation-Nginx-HHVM-MySQL-and-phpMyAdmin)
 - [Ubuntu](Ubuntu)
-  - [Installating Ubuntu](Ubuntu/installating_ubuntu.md)
+  - [Installing Ubuntu](Ubuntu/installing_ubuntu.md)
   - [Software Management In Ubuntu](Ubuntu/software_management_in_ubuntu.md)
 - [RethinkDB with Docker](RethinkDB-with-Docker)
   - [Docker Setup](Docker-Setup)

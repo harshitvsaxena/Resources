@@ -1,5 +1,5 @@
 <a id="top"></a>
-# Ubuntu Guide
+# Ubuntu
 
 [Main Page](README.md)
 

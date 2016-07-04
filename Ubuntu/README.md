@@ -1,4 +1,4 @@
-# Ubuntu-Guide
+# Ubuntu
 
 Getting Used to How Things Work in Ubuntu. Things can be frustrating with ubuntu for a new comer, but hang on it's going to be a great ride.
 

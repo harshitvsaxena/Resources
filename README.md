@@ -6,7 +6,7 @@ If something is changed or is wrong please raise an issue.
 
 ---
 
-Table of Contents
+## Table of Contents
 
 - [Installation Nginx, HHVM, MySQL, and phpMyAdmin](Installation-Nginx-HHVM-MySQL-and-phpMyAdmin)
 - [Ubuntu](Ubuntu)

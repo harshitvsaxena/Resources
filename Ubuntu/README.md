@@ -1,6 +1,6 @@
 # Ubuntu
 
-Getting Used to How Things Work in Ubuntu. Things can be frustrating with ubuntu for a new comer, but hang on it's going to be a great ride.
+Getting Used to How Things Work in Ubuntu. Things can be frustrating with ubuntu for a newcomer, but hang on it's going to be a great ride.
 
 It's just a collection of what I find interesting about Ubuntu.
 

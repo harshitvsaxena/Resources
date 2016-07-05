@@ -80,7 +80,7 @@ bin   dev   etc   home  proc  root  sys   tmp   usr   var
 
 Running the run command with the `-it` flags attaches us to an interactive tty in the container. Now we can run as many commands in the container as we want.
 
-To exit the above container use `exit` commant in the tty container.
+To exit the above container use `exit` command in the tty container.
 
 We can exit the container and then start it up again with the `docker run -it busybox sh` command.
 
@@ -99,6 +99,22 @@ If you have a bunch of containers to delete all in one go:
 ```sh
 $ sudo docker rm $(sudo docker ps -a -q -f status=exited)
 ```
+
+If you have running containers, you can stop them by using `docker stop` command.
+
+```sh
+$ sudo docker stop [container ID without square brackets]
+```
+
+Finally, for removing the image from docker use this:
+
+```sh
+$ sudo docker rmi [image ID without square brackets]
+```
+
+You can get the image Id by running the command `docker images`.
+
+Before removing the images make sure all the containers using it are closed or deleted. Otherwise it will throw error.
 
 ---
 

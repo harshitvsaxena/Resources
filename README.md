@@ -15,6 +15,8 @@ If something is changed or is wrong please raise an issue.
 - [RethinkDB with Docker](RethinkDB-with-Docker)
   - [Docker Setup](Docker-Setup)
   - [RethinkDB Setup](RethinkDB-Setup)
+- [Bugs and Fixes](Bugs-and-Fixes)
+  - [runit Bug](runit_bug.md)
 
 ---
 

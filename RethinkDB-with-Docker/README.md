@@ -5,7 +5,7 @@ The RethinkDB is an excellent database, and docker is an excellent container. Th
 ## Table of Contents
 
 - [Installing Docker](installing_docker.md)
-- [Installing node.js](installing_nodejs.md)
+- [Playing with Docker](playing_with_docker.md)
 - [Installing RethinkDB](installing_rethinkdb.md)
 
 ---

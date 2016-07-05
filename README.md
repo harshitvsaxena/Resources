@@ -13,10 +13,11 @@ If something is changed or is wrong please raise an issue.
   - [Installing Ubuntu](Ubuntu/installing_ubuntu.md)
   - [Software Management In Ubuntu](Ubuntu/software_management_in_ubuntu.md)
 - [RethinkDB with Docker](RethinkDB-with-Docker)
-  - [Docker Setup](Docker-Setup)
-  - [RethinkDB Setup](RethinkDB-Setup)
+  - [Installing Docker](RethinkDB-with-Docker/installing_docker.md)
+  - [Playing With Docker](RethinkDB-with-Docker/playing_with_docker.md)
+  - [Installing RethinkDB](RethinkDB-with-Docker/installing_rethinkdb.md)
 - [Bugs and Fixes](Bugs-and-Fixes)
-  - [runit Bug](runit_bug.md)
+  - [runit Bug](Bugs-and-Fixes/runit_bug.md)
 
 ---
 

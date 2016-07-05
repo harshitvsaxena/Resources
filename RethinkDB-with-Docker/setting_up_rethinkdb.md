@@ -18,7 +18,7 @@ Now use `run` command to start rethinkDB:
 $ sudo docker run -d -P --name someName -v "$PWD:/data" rethinkdb
 ```
 
-In the above command, `-d` will detach our terminal, `-P` will publish all exposed ports to random ports, `--name` corresponds to a name we want to give and finally -v is for bind mount a volume. All this you can refer from `docker run --help`.
+In the above command, `-d` will detach our terminal, `-P` will publish all exposed ports to random ports, `--name` corresponds to a name we want to give and finally `-v` is for bind mount a volume. All this you can refer from `docker run --help`.
 
 Now, we can see the ports by running the `docker port [CONTAINER]` command
 

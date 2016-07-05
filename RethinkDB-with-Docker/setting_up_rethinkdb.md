@@ -15,7 +15,7 @@ $ sudo docker pull rethinkdb
 Now use `run` command to start rethinkDB:
 
 ```sh
-$ sudo docker run -d -P --name someName -v "$PWD:/data" EdXengine rethinkdb
+$ sudo docker run -d -P --name someName -v "$PWD:/data" rethinkdb
 ```
 
 In the above command, `-d` will detach our terminal, `-P` will publish all exposed ports to random ports, `--name` corresponds to a name we want to give and finally -v is for bind mount a volume. All this you can refer from `docker run --help`.

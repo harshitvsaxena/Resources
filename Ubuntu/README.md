@@ -6,7 +6,7 @@ It's just a collection of what I find interesting about Ubuntu.
 
 ---
 
-## Table of Content
+## Table of Contents
 
 - [Installing Ubuntu](installing_ubuntu.md)
 - [Important Softwares For Ubuntu](important_softwares_for_ubuntu.md)
@@ -14,4 +14,4 @@ It's just a collection of what I find interesting about Ubuntu.
 
 ---
 
-# The End
+## The End

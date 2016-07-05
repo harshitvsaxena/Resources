@@ -39,8 +39,6 @@ sudo apt-get install git-all
 
 It will work.
 
----
-
 [Main Page](README.md) | [Top](#top)
 
 ---

@@ -86,12 +86,25 @@ We can exit the container and then start it up again with the `docker run -it bu
 
 To find out more about run, use `docker run --help` to see a list of all flags it supports.
 
+We ran `docker run` multiple times and leaving stray containers will eat up disk space. Hence, as a rule of thumb, clean up containers once done with them. To do that, you can run the `docker rm` command. Just copy the container IDs from the command `docker ps -a` and paste them alongside the command.
+
+```sh
+$ sudo docker rm 305297d7a235 ff0a5c3750b9
+305297d7a235
+ff0a5c3750b9
+```
+
+If you have a bunch of containers to delete in one go, copy-pasting IDs can be tedious. In that case, you can simply run:
+
+```sh
+$ sudo docker rm $(sudo docker ps -a -q -f status=exited)
+```
+
 ---
 
 Disclaimer: Major part of this document is taken from http://prakhar.me/docker-curriculum/.
 
-
-[Main Page](README.md) | [TOP](#top)
+[Main Page](README.md) | [Top](#top)
 
 ---
 

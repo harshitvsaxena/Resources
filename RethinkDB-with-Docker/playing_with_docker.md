@@ -112,7 +112,7 @@ Finally, for removing the image from docker use this:
 $ sudo docker rmi [image ID without square brackets]
 ```
 
-You can get the image Id by running the command `docker images`.
+You can get the image ID by running the command `docker images`.
 
 Before removing the images make sure all the containers using it are closed or deleted. Otherwise it will throw error.
 

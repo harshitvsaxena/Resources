@@ -47,7 +47,7 @@ $ sudo vim /etc/apt/sources.list.d/docker.list
 
 - Remove any existing entries in the above file. Add an entry for your Ubuntu operating system. I've added it for Ubuntu Xenial 16.04 [LTS]. Please check for yours at the link mentioned in above points.
 
-```vim
+```sh
 deb https://apt.dockerproject.org/repo ubuntu-xenial main
 ```
 

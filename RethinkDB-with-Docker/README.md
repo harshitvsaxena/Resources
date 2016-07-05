@@ -6,7 +6,7 @@ The RethinkDB is an excellent database, and docker is an excellent container. Th
 
 - [Installing Docker](installing_docker.md)
 - [Playing with Docker](playing_with_docker.md)
-- [Installing RethinkDB](installing_rethinkdb.md)
+- [Setting Up RethinkDB](setting_up_rethinkdb.md)
 
 ---
 

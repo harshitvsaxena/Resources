@@ -10,7 +10,7 @@ This guide is for getting used to Docker.
 
 ---
 
-#### Step 1. Playing with BusyBox
+#### Playing with BusyBox
 
 Run this command in terminal:
 
@@ -94,7 +94,7 @@ $ sudo docker rm 305297d7a235 ff0a5c3750b9
 ff0a5c3750b9
 ```
 
-If you have a bunch of containers to delete in one go, copy-pasting IDs can be tedious. In that case, you can simply run:
+If you have a bunch of containers to delete all in one go:
 
 ```sh
 $ sudo docker rm $(sudo docker ps -a -q -f status=exited)

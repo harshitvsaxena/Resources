@@ -5,7 +5,7 @@
 
 ## Installing Docker
 
-Installing Docker is pretty easy. You can just follow the steps needed mentioned here:
+Installing Docker is pretty easy. You can just follow the steps mentioned here:
 https://docs.docker.com/engine/installation/linux/
 
 Please select your version of linux from the above mentioned link and follow through the tutorial there.

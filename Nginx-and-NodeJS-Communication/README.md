@@ -13,7 +13,7 @@ I am here assuming that you have already installed Nginx and NodeJS in your syst
 
 Please complete these installation before starting this. Also I assume you are having a node.js app running to know if the setup is working or not.
 
-If you do not have an app in node please go through this link to create your first app: http://socket.io/get-started/chat/
+If you do not have an app in node.js, please go through this link to create your first app: http://socket.io/get-started/chat/
 
 It is pretty easy and you will get to learn a lot about node.js
 

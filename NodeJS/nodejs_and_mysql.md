@@ -62,7 +62,7 @@ $ npm install http --save
 $ npm install socket.io --save
 ```
 
-Now modify the above server.js file like this:
+Now modify the above `server.js` file like this:
 
 ```javascript
 var express = require('express');
@@ -151,7 +151,7 @@ Now lets create html(`index.html`) file for our server to serve the client:
 </html>
 ```
 
-Let's see how our client.js should look like:
+Let's see how our `client.js` should look like:
 
 ```javascript
 var socket = io.connect("/");
@@ -191,7 +191,7 @@ Before running this have a mysql table having structure as shown below:
 | 2      | Srishti        | srishti@idk.com     |
 | 3      | someName       | someName@mail.com   |
 
-Now go ahead open a browser and hit `http://localhost:8124`
+Now go ahead open a browser and hit `http://localhost:8124`.
 
 You should be able to see the above table in your browser as a list. For checking the json object received open `inspect element` in your browser and see `console log`.
 

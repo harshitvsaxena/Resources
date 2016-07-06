@@ -76,7 +76,7 @@ var app = express();
 app.use(express.static('../'));
 
 /* Server listens on the port 8124 */
-var server =http.createServer(app).listen(8124);
+var server = http.createServer(app).listen(8124);
 
 /*initializing the websockets communication , server instance has to be sent as the argument */
 io = io.listen(server);
@@ -117,7 +117,7 @@ io.sockets.on("connection",function(socket) {
 
 Now we need to create a front end for this,
 
-According to the file above your directory setup should be like this:
+According to the file above, your directory setup should be like this:
 
 ```
 localhost(/var/www/html)
@@ -130,7 +130,7 @@ localhost(/var/www/html)
     |--server.js
 ```
 
-Now lets create html(`index.html`) file for our server to serve to client:
+Now lets create html(`index.html`) file for our server to serve the client:
 
 ```html
 <!DOCTYPE html>
@@ -173,7 +173,7 @@ socket.on("message", function(message){
   console.log(message);
   var x = 0;
   while(x < message.length) {
-    $('#content ul').append('<li>id: ' + message[x]['userid'] + '<br>Name: ' + message[x]['fname'] + ' ' + message[x]['lname'] + '<br>Email: ' + message[x]['email'] + '</li>');
+    $('#content ul').append('<li>id: ' + message[x]['userid'] + '<br>Name: ' + message[x]['name'] + '<br>Email: ' + message[x]['email'] + '</li>');
     x++;
   }
 });
@@ -182,6 +182,18 @@ socket.on('disconnect',function() {
   console.log("socket Disconnected..");
 });
 ```
+
+Before running this have a mysql table having structure as shown below:
+
+| userid | name           | email               |
+|--------|----------------|---------------------|
+| 1      | Harshit Saxena | me@harshitsaxena.in |
+| 2      | Srishti        | srishti@idk.com     |
+| 3      | someName       | someName@mail.com   |
+
+Now go ahead open a browser and hit `http://localhost:8124`
+
+You should be able to see the above table in your browser as a list. For checking the json object received open `inspect element` in your browser and see `console log`.
 
 ---
 

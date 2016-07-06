@@ -43,7 +43,7 @@ You can create this directory anywhere,
 
 #### Step 1. Copy-Paste
 
-We need to copy the `default` file at this location `/etc/nginx/sites-available/`:
+We need to create a copy of the `default` file at this location `/etc/nginx/sites-available/`:
 
 ```sh
 # cp /etc/nginx/sites-available/default /etc/nginx/sites-available/node

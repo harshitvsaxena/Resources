@@ -10,9 +10,9 @@ If something is changed or is wrong please raise an issue.
 
 - [Installation Nginx, HHVM, MySQL, and phpMyAdmin](Installation-Nginx-HHVM-MySQL-and-phpMyAdmin)
 - [NodeJS](NodeJS)
-  - [Installing NodeJS and NPM](installing_nodejs_and_npm.md)
-  - [package.json in NodeJS](package_dot_json_in_nodejs.md)
-  - [NodeJS and MySQL](nodejs_and_mysql.md)
+  - [Installing NodeJS and NPM](NodeJS/installing_nodejs_and_npm.md)
+  - [package.json in NodeJS](NodeJS/package_dot_json_in_nodejs.md)
+  - [NodeJS and MySQL](NodeJS/nodejs_and_mysql.md)
 - [Nginx and NodeJS Communication](Nginx-and-NodeJS-Communication)
 - [RethinkDB with Docker](RethinkDB-with-Docker)
   - [Installing Docker](RethinkDB-with-Docker/installing_docker.md)

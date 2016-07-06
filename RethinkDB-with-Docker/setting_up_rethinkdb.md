@@ -29,8 +29,29 @@ $ sudo docker port someName
 8080/tcp -> 0.0.0.0:32770
 ```
 
-
 Now open browser and see rethinkDB running at: http://localhost:32770
+
+#### Some Important Commands:
+
+To stop a container:
+```sh
+$ sudo docker stop [container ID without square brackets]
+```
+
+To restart a container:
+```sh
+$ sudo docker restart [container ID without square brackets]
+```
+
+To start a container:
+```sh
+$ sudo docker start [container ID without square brackets]
+```
+
+To send SIGKILL signal to the container:
+```sh
+$ sudo docker kill [container ID without square brackets]
+```
 
 [Main Page](README.md) | [Top](#top)
 

@@ -22,7 +22,7 @@ var con = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "password",
-  database: "database_name"
+  database: "databaseName"
 });
 
 con.connect(function(err){
@@ -33,7 +33,7 @@ con.connect(function(err){
   console.log('Connection established');
 });
 
-con.query('SELECT * FROM customers',function(err,rows){
+con.query('SELECT * FROM tableName',function(err,rows){
   if(err) throw err;
   console.log('Data received from Db:\n');
   console.log(rows);
@@ -46,6 +46,85 @@ con.end(function(err) {
 });
 ```
 
+Now if you go to terminal and run the node server like this:
+
+```sh
+$ node server.js
+```
+
+You will be able to get the output in the terminal.
+
+Now to get the output as json on the front end, that is in a html file we need to have these node modules installed, so go ahead and run these commands
+
+```sh
+$ npm install express --save
+$ npm install http --save
+$ npm install socket.io --save
+```
+
+Now modify the above server.js file like this:
+
+```javascript
+var express = require('express');
+var http = require('http');
+var io = require('socket.io');
+var mysql = require("mysql");
+
+var app = express();
+
+/* Specifying the public folder of the server to make the html accesible using the static middleware */
+app.use(express.static('../'));
+
+/* Server listens on the port 8124 */
+var server =http.createServer(app).listen(8124);
+
+/*initializing the websockets communication , server instance has to be sent as the argument */
+io = io.listen(server);
+
+
+/* First you need to create a connection to the db */
+var con = mysql.createConnection({
+  host: "localhost",
+  user: "root",
+  password: "password",
+  database: "databaseName"
+});
+
+con.connect(function(err){
+  if(err){
+    console.log('Error connecting to Db');
+    return;
+  }
+  console.log('Connection established');
+});
+
+con.query('SELECT * FROM tableName',function(err,rows){
+  if(err) throw err;
+  console.log('Data received from Db:\n');
+  //console.log(rows);
+  socket.send(JSON.stringify(rows, null, 2));
+});
+
+con.end(function(err) {
+  // The connection is terminated gracefully
+  // Ensures all previously enqueued queries are still
+  // before sending a COM_QUIT packet to the MySQL server.
+});
+```
+
+Now we need to create a front end for this,
+
+According to the file above your directory setup should be like this:
+
+```
+localhost(/var/www/html)
+|--client.js
+|--index.html
+|--server
+    |--node_modules
+    |--package.json
+    |--server.js
+```
 
 ---
 
@@ -55,4 +134,4 @@ Resource: https://www.sitepoint.com/using-node-mysql-javascript-client/
 
 ---
 
-## Thank You
+## The End

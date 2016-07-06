@@ -53,6 +53,8 @@ To send SIGKILL signal to the container:
 $ sudo docker kill [container ID without square brackets]
 ```
 
+You can get the container ids by using the command `docker ps -a`.
+
 [Main Page](README.md) | [Top](#top)
 
 ---

@@ -7,7 +7,8 @@ Everything you need to know about git.
 
 - [Git Install](git_install.md)
 - [Working with Git](working_with_git.md)
-- [Stash in Git](stash_in_git.md)
+- [Stashing](stashing.md)
+- [Rebasing](rebasing.php)
 - [Working with Patches](working_with_patches.md)
 
 ---

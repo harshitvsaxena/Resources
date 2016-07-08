@@ -12,12 +12,12 @@ When installing `git-all` this start to giving error while installing any packag
 sudo apt-get install runit
 ```
 
-This is a bug mentioned in `https://bugs.launchpad.net/ubuntu` for various vesions of Ubnutu. Maybe the Ubuntu team has not get the chance to fix this.
+This is a bug mentioned in https://bugs.launchpad.net/ubuntu for various vesions of Ubnutu. Maybe the Ubuntu team has not get the chance to fix this.
 
 
-The error was solved by the comment from `https://launchpad.net/~tony-vandenhaag`.
+The error was solved by the comment from https://launchpad.net/~tony-vandenhaag.
 
-You can see his comment at this location: `https://bugs.launchpad.net/ubuntu/+source/runit/+bug/1448164/comments/15`
+You can see his comment at this location: https://bugs.launchpad.net/ubuntu/+source/runit/+bug/1448164/comments/15
 
 The simple workaround mentioned by the above guy is:
 

@@ -27,4 +27,5 @@ Everything you need to know about git.
 git reset --hard HEAD~1 -> will remove everything of last commit
 git reset --hard HEAD~2 -> will remove everything from last 2 commits
 git reset --soft HEAD~1 -> will remove commits without there changes
+git am < /var/www/html/patches/patchName.patch -> to apply patch
 ```

@@ -29,4 +29,11 @@ git reset --hard HEAD~2 -> will remove everything from last 2 commits
 git reset --soft HEAD~1 -> will remove commits without there changes
 git am < /var/www/html/patches/patchName.patch -> to apply patch
 git log
+
+rebase in git
+git rebase --abort
 ```
+
+http://stackoverflow.com/questions/1628088/reset-local-repository-branch-to-be-just-like-remote-repository-head
+
+http://stackoverflow.com/questions/10657315/git-merge-left-head-marks-in-my-files

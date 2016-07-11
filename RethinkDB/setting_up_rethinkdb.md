@@ -34,9 +34,7 @@ r.db("SampleDatabase").table("sampleTable");
 
 ---
 
-References:
-1. https://www.rethinkdb.com/docs/install-drivers/javascript/
-2. https://www.rethinkdb.com/docs/start-a-server/
+Reference: https://www.rethinkdb.com/docs/start-a-server/
 
 [Main Page](README.md) | [Top](#top)
 

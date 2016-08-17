@@ -1,3 +1,4 @@
+<a id="top"></a>
 # Disqus SSO using PHP
 
 ---
@@ -82,3 +83,24 @@ $hmac = dsq_hmacsha1($message . ' ' . $timestamp, DISQUS_SECRET_KEY);
   </body>
 </html>
 ```
+
+#### One Last thing:  
+
+This will only work when Disqus has Enable SSO for yor site. For this you can visit: https://disqus.com/support/
+
+A form will appear, 
+
+- Select the site for which you are applying.
+- Select `Other` in the `Platform` dropdown which will appear after you done with above step.
+- Select `Enable SSO` from `What can we help you with?` dropdown.
+- Write the `Subject`
+- As you write the subject a link will appear `Still having issues? Send us more details.`, click on that.
+- Fill in the form which appear and press send.
+
+After you send the mail, only thing is to wait for Disqus to reply back. Sit tight.
+
+[Top](#top)
+
+---
+
+## The End

@@ -1,7 +1,6 @@
 <a id="top"></a>
-# Disqus SSO using PHP
 
----
+# Disqus SSO using PHP
 
 Sometimes we don't need the user to sign in again to Disqus when the user has already signed in through our website. This can be achieved by using SSO(Single Sign On).
 

@@ -15,6 +15,11 @@
 
 ## Rocket.Chat Features:
 
+- Highly customizable.
+- Attach any kind of file.
+- Rich text formatting available.
+- Docker image available.
+- Okay documentation but not as good as mattermost.
 - More importance to customer care type.
 - Video/Audio conference available.
 - File sharing available.

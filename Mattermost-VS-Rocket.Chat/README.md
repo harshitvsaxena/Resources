@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 # Mattermost VS Rocket.Chat
 
 ## Mattermost Features:
@@ -7,7 +9,7 @@
 - Can integrate in mobile apps.
 - Rich text formatting.
 - Attach any kind of file.
-- Docker image available.
+- Docker image available: https://hub.docker.com/r/jasl8r/mattermost/
 - Good documentation.
 - Video/Audio Conference not available (They are working on it - will be available in future)
 
@@ -22,21 +24,38 @@
 
 ---
 
-## Case Study: 
+## Case Studies: 
 
 ### Case 1: How much work to do to get the database going and linking with the source code of both of these chat services.
 
 #### Mattermost
 
+Database connectivity is pretty straight forward. Link: https://hub.docker.com/r/jasl8r/mattermost/#database
+
+But the one thing they have mentioned is for file sharing the mattermost stores data in the file system for features like file upload and avatars. To avoid losing this data you should mount a volume at,
+
+- `/opt/mattermost/data`
+
+The documentation for that is also available at: https://hub.docker.com/r/jasl8r/mattermost/#data-store
+
+I don't think it should take much time, probably not more than 1 or 2 hours.
+
 #### Rocket.Chat
+
+Rocket.chat does not have MySQL support they mainly support MongoDB although they are working on providing support for PostgreSQL.
+
+Setup for MongoDB with Rocket.Chat is also pretty straight forward. Here is the link: 
+
+- For Aliyun(Alibaba Cloud): https://rocket.chat/docs/installation/paas-deployments/aliyun/#start-the-mongodb-database
+- For AWS: https://rocket.chat/docs/installation/paas-deployments/aws/#7-set-up-docker-containers
+
+I would say the setup of Rocket.Chat is slightly more complex than Mattermost, mostly on AWS.
 
 ---
 
 ### Case 2: Ability to chat.
 
-#### Mattermost
-
-#### Rocket.Chat
+Both are having same kind of UI but are highly customizable and I would say they are both equally good in ability to chat.
 
 ---
 
@@ -44,7 +63,14 @@
 
 #### Mattermost
 
+Yes, Mattermost allows for this ability, look at this link: https://mattermost.uservoice.com/forums/306457-general/suggestions/11205624-only-admin-or-manager-should-be-able-to-create-cha
+
 #### Rocket.Chat
+
+From the links below it seems they are still developing this feature
+
+- https://github.com/RocketChat/Rocket.Chat/issues/658
+- https://github.com/RocketChat/Rocket.Chat/issues/630
 
 ---
 
@@ -74,6 +100,8 @@
 #### Rocket.Chat
 
 ---
+
+[Top](#top)
 
 ## Thank You
 

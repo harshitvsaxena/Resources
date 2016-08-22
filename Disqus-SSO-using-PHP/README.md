@@ -97,6 +97,9 @@ A form will appear,
 
 After you send the mail, only thing is to wait for Disqus to reply back. Sit tight.
 
+When SSO is enabled for your site a new field in the `settings` of you application at https://disqus.com/api/applications/
+will appear to select the site on which to apply SSO. Please select one from the dropdown. If this field is not appearing you may have to delete and recreate the application.
+
 [Top](#top)
 
 ---

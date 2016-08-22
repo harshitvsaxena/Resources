@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-# Validate Email with PHP
+# Validating Email with PHP
 
 ```php
 <?php

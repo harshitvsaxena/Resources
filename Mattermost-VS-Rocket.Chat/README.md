@@ -78,7 +78,11 @@ From the links below it seems they are still developing this feature
 
 #### Mattermost
 
+Yes, it is available. Demo is available at this link: https://gitlab.mattermost.com/signup_user_complete/
+
 #### Rocket.Chat
+
+Yes, it is available. Demo at this link: https://demo.rocket.chat/
 
 ---
 
@@ -89,21 +93,27 @@ From the links below it seems they are still developing this feature
 
 #### Mattermost
 
+Yes, one-to-one, video/audio sharing/recording is available but screen-share and video/audio conference is not available as referred from links below:
+
+- https://mattermost.uservoice.com/forums/306457-general/suggestions/10625343-video-audio-conference-feature
+- https://mattermost.atlassian.net/browse/PLT-2048
+
 #### Rocket.Chat
+
+Yes, everything asked in this case are available.
 
 ---
 
 ### Case 5: Ability to select only required features, for example, if in one page we want to have only video sharing capability, but not anything else, can we do it? Also remember that, in another page, we need to use same application with different features.
 
-#### Mattermost
-
-#### Rocket.Chat
+I don't know about this, but as far as I have seen their documentations, it seems that yes it is possible in both.
 
 ---
 
+Disclaimer: Above information is provided using many resources, and correctness of every information provided can not be guaranteed.
+
 [Top](#top)
 
-## Thank You
+---
 
-
-
+## The End

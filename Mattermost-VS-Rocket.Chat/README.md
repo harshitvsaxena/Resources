@@ -25,7 +25,6 @@
 - File sharing available.
 - Can integrate in all kind of devices.
 - Search ability available.
-- Documentation not that good as Mattermost.
 
 ---
 

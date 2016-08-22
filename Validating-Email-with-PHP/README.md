@@ -6,11 +6,11 @@
 <?php
 
 /**
-Validate an email address.
-Provide email address (raw input)
-Returns true if the email address has the email 
-address format and the domain exists.
-*/
+ * Validate an email address.
+ * Provide email address (raw input)
+ * Returns true if the email address has the email 
+ * address format and the domain exists.
+ */
 
 function validEmail($email) {
 

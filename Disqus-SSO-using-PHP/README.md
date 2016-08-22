@@ -61,6 +61,7 @@ $hmac = dsq_hmacsha1($message . ' ' . $timestamp, DISQUS_SECRET_KEY);
         this.page.remote_auth_s3 = "<?php echo "$message $hmac $timestamp"; ?>";
         this.page.api_key = "<?php echo DISQUS_PUBLIC_KEY; ?>";
       };
+      
       /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
       var disqus_shortname = 'EXAMPLE'; // required: replace EXAMPLE with your forum shortname
 
@@ -71,8 +72,6 @@ $hmac = dsq_hmacsha1($message . ' ' . $timestamp, DISQUS_SECRET_KEY);
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
-
-      console.log(disqus_config);
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   </head>

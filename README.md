@@ -24,6 +24,7 @@ If something is changed or is wrong please raise an issue.
   - [Software Management In Ubuntu](Ubuntu/software_management_in_ubuntu.md)
 - [Disqus SSO using PHP](Disqus-SSO-using-PHP)
 - [Mattermost VS Rocket.Chat](Mattermost-VS-Rocket.Chat)
+- [Validating Email with PHP](Validating-Email-with-PHP)
 - [Bugs and Fixes](Bugs-and-Fixes)
   - [runit Bug](Bugs-and-Fixes/runit_bug.md)
 

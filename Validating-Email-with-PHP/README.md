@@ -83,7 +83,7 @@ function validEmail($email) {
 }
 
 ?>
-```php
+```
 
 ---
 

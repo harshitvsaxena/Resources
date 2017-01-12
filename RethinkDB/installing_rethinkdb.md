@@ -6,8 +6,10 @@
 
 ## Installing RethinkDB
 
-1. Install node first - link: [NodeJS Installation](../NodeJS/installing_nodejs_and_npm.md)
-2. Install rethinkDB - Download Link: https://www.rethinkdb.com/docs/install/
+#### Install node first - link: [NodeJS Installation](../NodeJS/installing_nodejs_and_npm.md)
+
+#### Install RethinkDB
+
 
 Now install client driver using:
 
